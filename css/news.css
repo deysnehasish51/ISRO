@@ -76,6 +76,8 @@ nav a:hover
     font-weight: bold;
     text-decoration: none;
     box-shadow: 0 4px 15px rgba(230, 153, 0, 0.641);
+    cursor: pointer;
+
 }
 .btn:hover
 {
