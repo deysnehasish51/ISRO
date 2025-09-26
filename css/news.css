@@ -252,5 +252,12 @@ nav a:hover
 .footer-col .icons i:hover  {
   color: #fff;
 }
-
+@media (max-width: 768px) {
+  .nav ul {
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-top:10px;
+   } 
+  }
 

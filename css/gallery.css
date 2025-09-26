@@ -310,9 +310,63 @@ footer
 
 @media (max-width: 768px) {
   .nav ul {
-    flex-direction: column;
     gap: 20px;
+    flex-direction: column;
+    align-items: center;
     margin-top: 10px;
+  }
+
+  .rocket {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 80%;
+    max-width: 280px;
+    margin: 20px auto;
+    order: 2;
+  }
+
+  .content {
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 20px;
+  }
+
+  .content1 {
+    order: 1;
+    max-width: 100%;
+  }
+
+  .para1,
+  h1 {
+    width: 100%;
+  }
+  .introduction {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .intro-content {
+    order: 1;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .intro-content h2 {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+
+  .intro-content p {
+    font-size: 1rem;
+  }
+
+  .intro-img {
+    order: 2;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
   }
 
   .gallery {

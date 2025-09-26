@@ -1,15 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 body{
     font-family: 'Poppins', sans-serif;
     color: white;
     background: linear-gradient(to right,#010323, #032a4c);
-
 }
 .container
 {
@@ -109,6 +106,7 @@ h1, h2, h3, h4, h5, h6, p{
     align-items: center;
 }
 .container{
+    margin-top: 100px;
     width: 90vw;
     margin: 0 auto;
 }
@@ -243,11 +241,13 @@ footer
         grid-gap: 20px;
     }
     
+    
 }
 
 @media screen and (min-width: 1400px){
     .blog-wrapper-sm{
         grid-template-columns: repeat(4, 1fr);
+        padding-top: 200px;
     }
 }
 
@@ -271,6 +271,15 @@ footer
         grid-template-columns: repeat(4, 1fr);
     }
 }
+
+@media (max-width: 768px) {
+  .nav ul {
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-top:10px;
+   } 
+  }
 
 
 
